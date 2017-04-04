@@ -50,3 +50,7 @@
 #cboxClose {
 	display: none;
 }
+#firstrunwizard .box {
+	position: relative;
+	text-align: right;
+}
