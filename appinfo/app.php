@@ -29,10 +29,10 @@ Util::addScript('firstrunwizard', 'firstrunwizard');
 Util::addStyle('firstrunwizard', 'firstrunwizard');
 
 // only load when the file app displays
-$eventDispatcher = \OC::$server->getEventDispatcher();
+/*$eventDispatcher = \OC::$server->getEventDispatcher();
 $eventDispatcher->addListener(
 	'OCA\Files::loadAdditionalScripts',
-	function() {
+	function() {*/
 		$config = \OC::$server->getConfig();
 		$userSession = \OC::$server->getUserSession();
 		$firstRunConfig = new Config($config, $userSession);
@@ -40,6 +40,6 @@ $eventDispatcher->addListener(
 		if ($userSession->isLoggedIn() && $firstRunConfig->isEnabled()) {
 			Util::addScript( 'firstrunwizard', 'activate');
 		}
-	}
+	/*}
 );
 
