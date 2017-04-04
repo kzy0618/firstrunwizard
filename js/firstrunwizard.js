@@ -5,13 +5,7 @@ function showfirstrunwizard(){
 		speed:100, 
 		width:"70%", 
 		height:"70%", 
-		href: OC.filePath('firstrunwizard', '', 'wizard.php'),
-		onClosed : function(){
-			$.ajax({
-			url: OC.filePath('firstrunwizard', 'ajax', 'disable.php'),
-			data: ""
-			});
-		}  
+		href: OC.filePath('firstrunwizard', '', 'wizard.php'), 
 	});
 }
 
@@ -21,4 +15,10 @@ $('#showWizard').live('click', function () {
 
 $('#closeWizard').live('click', function () {	
 		$.colorbox.close();
+});
+$('#disablerun').live('click', function () {	
+			$.ajax({
+			url: OC.filePath('firstrunwizard', 'ajax', 'disable.php'),
+			data: ""
+			});
 });
