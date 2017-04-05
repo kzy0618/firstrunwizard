@@ -7,8 +7,8 @@
 
 <p><?php p($l->t('Here you can record some Maori & English languages but first, please read the following rules'));?></p>
 
-<h2><?php p($l->t('Implementation of Background application :')); ?></h2>
-<p><?php p($l->t('To use the database and classify the recording, researchers need some informations about users. Please enter your personnal informations in the background application. This informations will be keep in a secure way and only researchers could access to them.'));?></p>
+<h2><?php p($l->t('Add your personnal informations :')); ?></h2>
+<p><?php p($l->t('To use the database and classify the recording, researchers need some informations about users. Please enter your personnal informations in the BACKGROUND application. This informations will be keep in a secure way and only researchers could access to them.'));?></p>
 
 <h2></h2>
 <a target="_blank">
@@ -50,3 +50,4 @@
 </a>
 
 </div>
+
