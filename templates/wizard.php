@@ -6,6 +6,14 @@
 <h1><?php p($l->t('Welcome to VoNZ Project')); ?></h1>
 
 <p><?php p($l->t('Here you can record some Maori & English languages but first, please read the following rules'));?></p>
+	
+<h2></h2>
+<a target="_blank">
+        <img src="<?php print_unescaped(OCP\Util::imagePath('firstrunwizard', 'Storage_Issue2.png')); ?>" style="height:90px"/>
+</a>
+
+<h2><?php p($l->t('Warning for new users :')); ?></h2>
+<p><?php p($l->t('It could take 48h for the admin to check your account and to give you access to the datacase and the recorder application.Thanks for you patience.'));?></p>
 
 <h2></h2>
 <a target="_blank">
