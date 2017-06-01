@@ -42,7 +42,7 @@
 <?php print_unescaped($l->t('If you like VoNZ,
 	<a href="mailto:?subject=ownCloud
 		&body=VoNZ is a great application to deal with maori language and differents New Zealand English accents. Join our community ! 
-		You can freely get it by register from https://130.216.118.226">
+		You can freely get it by register from https://vonzproject.auckland.ac.nz/">
 		recommend it to your friends</a>!')); ?>
 
 </p>
